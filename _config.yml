@@ -1,0 +1,186 @@
+# Site
+favicon: images/favicon.ico
+
+# Personal info
+name: Tim-Oliver Buchholz
+title: Machine Learning Expert for Image Analysis
+email: contact-tibuch@protonmail.ch
+#website: https://tibuch.ch
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  tibuch
+linkedin_username: tibuch
+orcid_username: 0000-0001-6953-8915
+
+# Additional icon links
+additional_links:
+- title: Current Workplace
+  icon: fas fa-globe
+  url: https://www.fmi.ch/platforms/platform.html?plt=110
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Tim-Oliver and I am a research software engineer. I work on biomedical image processing and analysis 
+  pipelines. Next to my work as software engineer I educate researchers in the best practices of FAIR image processing 
+  and analysis. I have worked with a number of different research groups and have experience in a wide range of image 
+  processing and analysis tasks.
+  
+  In my day-to-day work I use a variety of different programming languages and tools. I am experienced in Python and Java,
+  and have worked with PyTorch, TensorFlow, scikit-image and Dask. I am used to work with git and continues integration
+  to ensure the quality of the solutions I provide.
+  
+  I am experienced in working with different imaging modalities from light to electron microscopy and handling all 
+  types of imaging data, from small 2D images to large 5D datasets.
+  
+  I am passionate about making state of the art technology available to people without a computer science 
+  background.
+  
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Image Processing & Analysis Project Template
+        link: https://fmi-faim.github.io/ipa-project-template/
+        additional_links:
+          - title:  fmi-faim/ipa-project-template
+            icon: fab fa-github
+            url: https://github.com/fmi-faim/ipa-project-template
+        quote: >
+          A template to get your image processing and analysis project started.
+        description: | # this will include new lines to allow paragraphs
+          Image Processing and Analysis (IPA), transforming raw image data into quantitative measurements, is an 
+          important part of life sciences. This template simplifies the initiation of new IPA projects and streamlines
+          the reorganization of existing ones, contributing to research that is more Findable, Accessible, 
+          Interoperable, and Reusable (FAIR) promoting efficiency, reproducibility, and reliability in life 
+          sciences research.
+      - layout: top-middle
+        title: Napari PSF Analysis
+        link: https://github.com/fmi-faim/napari-psf-analysis
+        additional_links:
+          - title:  fmi-faim/napari-psf-analysis
+            icon: fab fa-github
+            url: https://github.com/fmi-faim/napari-psf-analysis
+        quote: >
+          Inspect the point spread function (PSF) of your microscope.
+        description: | # this will include new lines to allow paragraphs
+          This plugin is used to analyze the point spread function of microscopes. It provides a simple and easy to use
+          interface, which allows us to quickly assess the state of our microscopes. The quality measurements are are collected
+          and stored in a database, which allows us to track the performance of our microscopes over time.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Machine Learning Expert
+        link: https://www.fmi.ch/platforms/platform.html?plt=110
+        link_text: Friedrich Miescher Institute for Biomedical Research
+        sub_title: Facility for Advanced Imaging and Microscopy
+        caption: July 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+          In my role as Machine Learning Expert in the Facility for Advanced Imaging and Microscopy I work together with
+          our research groups to develop and implement state of the art image processing and analysis pipelines. The projects I 
+          work on are a diverse mix, ranging from small scale image analysis tasks to processing of terabyte sized imaging
+          datasets. I also educate our users in the best practices of FAIR image processing and analysis.
+      - layout: left
+        title: Doctoral Researcher
+        caption: 2017 - 2021
+        sub_title: Center for Systems Biology Dresden
+        description: | # this will include new lines to allow paragraphs
+          Next to researching novel approaches for image restoration, it was always a passion of mine to make our 
+          research outputs accessible to the wider non-computer scientist community. Making state of the art technology 
+          available to researchers without a computer science background is a challenge I enjoy.
+      - layout: left
+        title: Student Assistant
+        sub_title: Junior Programmer
+        caption: 2014 - 2017
+        description: | # this will include new lines to allow paragraphs
+          During my bachelor and master studies I worked as student assistant at the Chair for Bioinformatics and 
+          Information Mining. During this time I developed KNIME workflows and plugins for image processing and
+          analysis. As part of my work I also contributed to ImageJ and Fiji, two widely used image processing tools in
+          the life sciences.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Technische Universität Dresden
+        caption: 2017 - 2021
+        sub_title: Dr. rer. nat., Computer Science
+        description: | # this will include new lines to allow paragraphs
+          I developed novel machine learning methods for image restoration in the field of biomedical image analysis.
+          As a member of the IMPRS-CellDevoSys school, hosted at the Max Planck Institute of Molecular Cell Biology and 
+          Genetics (MPI-CBG) in collaboration with the Technische Universität Dresden (TUD), I was part of a vibrant 
+          and interdisciplinary research community. I worked together with researchers from biology, chemistry, 
+          physics and computer science.
+      - layout: left
+        title: Universität Konstanz
+        caption: 2016 - 2017
+        sub_title: M. Sc., Computer Science
+        description: | # this will include new lines to allow paragraphs
+          After completing my four year bachelor studies in computer science at the University of Konstanz I enrolled in
+          the one year master program. During my master studies I focused on the basics of computer vision and image 
+          processing.  
+
+  - title: Selected Publications
+    layout: list
+    content:
+      - layout: left
+        title: N2V2
+        link: https://arxiv.org/abs/2211.08512
+        caption: 2022
+        description: |
+          ## N2V2 - Fixing Noise2Void Checkerboard Artifacts with Modified Sampling Strategies and a Tweaked Network Architecture
+          __E Höck\*, TO Buchholz\*, A Brachmann, F Jug, A Freytag__
+          
+          Noise2Void 2 (N2V2) fixes the checkerboard artifacts that are present in some Noise2Void (N2V) denoised images.
+
+      - layout: left
+        title: cryoCARE
+        link: https://arxiv.org/abs/1810.05420
+        caption: 2019
+        description: |
+          ## cryoCARE - Content-Aware Image Restoration for Cryo-Transmission Electron Microscopy Data
+          __TO Buchholz, M Jordan, G Pigino, F Jug__
+          
+          Even highest quality cryo-EM data is inherently noisy and suffers from low contrast. With cryoCARE we present 
+          a deep learning-based approach to denoise and improve contrast in cryo-EM data.
+
+      - layout: left
+        title: Noise2Void
+        link: https://arxiv.org/abs/1811.10980
+        caption: 2019
+        description: |
+          ## Noise2Void - Learning Denoising from Single Noisy Images
+          __A Krull\*, TO Buchholz\*, F Jug__
+          
+          Noise2Void is a self-supervised image denoising method based on deep learning. It does not require clean 
+          ground truth data for training, instead it can be trained on single noisy images only.
+  
+
+  - title: Teaching & Extracurricular Activities
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my daily work I am involved in different teaching activities:
+      * [ZIDAS 2024](https://2024.zidas.org/): Co-organizer of the 2024 edition of the ZIDAS summer school.
+      * [ZIDAS 2023](https://2023.zidas.org/): Co-organizer of the 2023 edition of the ZIDAS summer school.
+      * [ZIDAS 2022](https://2022.zidas.org/): Co-organizer of the 2022 edition of the ZIDAS summer school.
+      * 2019 Dresden Senioren Akademie: Wie können lernende Algorithmen unsichtbare Inhalte in mikroskopischen Bildern sichtbar machen?
+      * 2019 Output DD: Computer Vision Meets Biology - Basic Research Requires Open Source Solutions
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

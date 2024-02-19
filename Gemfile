@@ -1,11 +1,9 @@
-source 'https://rubygems.org'
-group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'jekyll'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-paginate'
-    gem 'jekyll-scholar'
-    gem 'jemoji'
-    gem 'unicode_utils'
-    gem 'jekyll-twitter-plugin'
-end
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
+
+gem "jekyll", "~> 4.3"
+
+gem "jekyll-seo-tag", "~> 2.8"
